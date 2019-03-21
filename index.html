@@ -1,31 +1,47 @@
 <!DOCTYPE html>
+<html>
+    
+
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>TriviaGame.github.io</title>
 
-<title>TriviaGame.github.io</title>
-
-    <link rel="stylesheet" type="text/css" href="css/reset.css">
-    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="UTF-8">
     <!-- Bootstrap File -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <!-- CSS File -->
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <!-- jQuery File -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
-<!-- END of Heading -->
-<!-- START of Body -->
+<!-- END Head  -->
+<!-- Start Body  -->
 <body>
-
-<div class="container">
-    <div class="row">
-        <div class="col-12">
-            <div>???????</div>
+    <div class="container" id="container1">
+        <div class="container" id="container2">
+            <h1>Totally Trivial Trivia!</h1>
+            <hr height="4px" color="red">
+        </div>
+        <div class="container" id="container3">
+            <div class="row">
+                <div class="col-md-4" id="timer-area">
+                    <p id="play-clock">Time Remaining:
+                        <br>
+                        <span id="countdown"></span>
+                    </p>
+                </div>
+                <div class="col-md-8" id="quiz-area">
+                    <button type="button" id="startGame" class="btn btn-primary btn-lg">Start</button>
+                    <div id="start"></div>
+                </div>
+            </div>
         </div>
     </div>
-</div>
 
-<script src="javascript/app.js"></script>
+<!-- JS  -->
+<script src="assets/javascript/app.js"></script>
+
 </body>
-<!-- END of body -->
-<!-- END of html -->
+<!-- END Body  -->
+<!-- END html  -->
 </html>
