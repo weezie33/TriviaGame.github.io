@@ -1,135 +1,134 @@
 body {
-    background-image:url();
-    background-attachment: fixed;   
-    font-family: 'Lato', sans-serif;
-    display: inline-block;
-    
+    background-image:url(https://media.giphy.com/media/7SKOwf1nD6j6XhfLMG/giphy.gif);
+    justify-content: center;   
 }
 
 #container1 {
-    border: 5px solid red;
+    border: 10px solid  greenyellow;
     max-width: 1024px;
-    width: 100%;
-    padding:auto;
-    margin:0 auto;
-    text-align:center;
-    background-color: black;;
-}
+    height: 100%;
+    margin: auto;
+    margin-top: 10%;
+    padding: 0;
+    text-align: center;
 
+}
+.row {
+    padding-bottom: 20px;
+    text-align: center;
+}
 #container2 {
     width: 100%;
-    padding:auto;
-    margin:0 auto;
+    padding: 20px 0px;
+    margin: auto;
     text-align:left;
-    background-color: white;
-    font-size: 25px;
+    background-color: rgb(127, 47, 255);
+    font-size: 60px;
 }
 #container3 {
     width: 100%;
-    padding:auto;
-    margin:0 auto;
-    text-align:left;
-    background-color: white;
+    padding: 0;
+    margin: auto;
+    background-color: red;
     font-size: 25px;
+}
+
+p {
+    margin:auto;
+    justify-content: center;
 }
 
 h1 {
     font-size: 50px;
     text-align: center;
     font-weight: 300;
-    color: red;
+    color: greenyellow;
     letter-spacing: 10px;
 }
+#quiz-area {
+    padding-top: 30px;
+}
+#col-md-8 {
+    text-align:left;
+}
 
-/* 
+#timer-area{
+    display:none;
+    margin: auto;
+    font-size: 30px;
+    font: bold;
+    color: yellowgreen;
+}
+
+#countdown {
+    font-size: 95px;
+    color: black;
+}
+
 h2 {
-    font-size: 20px;
+    font-size: 30px;
     font-weight: bold;
     margin: 10px;
+    color: greenyellow;
+    font:bold;
+    text-align: left;
 }
 
 h3 {
     padding-left: 45px;
-    font-size: 17px;
-    
+    font-size: 20px;
+    text-align: left;
 }
 
 h4 {
-    font-size: 20px;
-    font-weight: bold;
-}
-#sub-heading{
-    line-height: 50px;
-    text-align: center;
-    font-weight: 700;
-    font-size: 18px;
+    font-size: 200px;
+    font: bold;
+    color: greenyellow;
+    font: bold;
+    margin: auto;
+    justify-content: center;
+    width: 100%;
+    padding: 25px;
     
 }
 
-#play-clock {
-   border: 5px solid pink;
-    margin-left: 25px;
-    margin-top: 50px;
-    padding-top: 15px;
-    font-size: 20px;
-    letter-spacing: 2px;
-}
-
-#trivia-question {
-    border: 5px solid black;
-    width: 400px;
-    height: 400px;
-    text-align: center;
-    
-}
-
-#question-display {
+h5 {
     font-size: 25px;
-    font-weight: 700;
+    font: bold;
+    color: black;
+    font: bold;
+    margin: auto;
+    text-align: center;
+    width: 100%;
 }
 
-#choices {
-    padding: 15px;
-}
-
-.btn,  #submit-btn {
+.btn {
    background-color: #FFF; 
-    border: none;
+    border: 3px solid yellowgreen;
     color: purple;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
-    font-size: 18px;
+    margin: auto;
+    font-size: 40px;
     font-weight: 700;
 }
 
-#quiz-area {
-    padding-top: 30px;
-    padding-left: 50px;
-}
-#startGame {
-    font-size: 40px;
-}
 #submit-btn{
+    background-color: #FFF; 
+    border: 3px solid yellowgreen;
+    color: purple;
+    text-align: center;
+    text-decoration: none;
+    margin: auto;
     font-size: 30px;
-    border: 3px solid green;
-    border-radius: 3px;
-    color: grey;
     padding: 5px;
-    margin-left: 150px;
     margin-top: 25px;
-    
+    width: 25%;
+}
+#video {
+    display:none;
 }
 
-
-.btn:hover, .btn:focus,  #submit-btn:hover,  #submit-btn:focus {
-    color: #fff;
-    background-color: red;
-    border-color: black; 
+#gameover-row {
+    display: none;
 }
-
-
-
-#countdown {
-    font-size: 95px;
-} */
