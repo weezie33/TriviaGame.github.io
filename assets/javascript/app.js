@@ -61,6 +61,18 @@ let questionArray = [{
             $("#quiz-area").append("<button id='submit-btn'>Done</button>");
         }
 
+//   function score() {
+// $.each($("input[type=radio]:checked"), function(i) {
+//     if ($(this).val() === questionArray[i].correctAnswer) {
+//         correct++;
+//     } else if ($(this).val() !== questionArray[i].correctAnswer) {
+//         incorrect++;
+//     } else {
+//         unanswered++;
+//     }
+// });
+//   }
+
   function score() {
     //Queston 1
     $.each($("input[name='question-0']:checked"), function() {
@@ -68,7 +80,6 @@ let questionArray = [{
         correct++;
       } else {
         incorrect++;
-
       }
     });
 
@@ -128,4 +139,10 @@ function timeUp() {
 setTimeout(timesUp, 1000 * 45);
     $(document.container).append("Time's Up!");
     }
+
+
+$(document).ready(function() {
+    $(".fancy_title").lettering();
+});
+
 };
